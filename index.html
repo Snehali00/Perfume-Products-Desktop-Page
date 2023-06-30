@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+    .product-mobile{
+      display: inline-block;
+      justify-content: space-around;
+      height:auto;
+      width: 100%;
+      justify-content: space-around;
+
+    }
+
+    .container{
+      display: flex;
+      flex-direction: row;
+      height:auto;
+      width: 100%;
+      
+      
+    }
+
+    .product-details{
+      padding-left: 70px;
+    }
+
+    .product-name{
+      font-size: 70px;
+    
+    }
+
+    .product-about{
+      color: gray;
+      font-size: 40px;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+    }
+
+    .add-to-cart{
+      background-color: rgb(64, 224, 125);
+      padding: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      border-style: none;
+      width: 520px;
+      border-radius: 10px;
+    }
+
+    .price{
+      font-size: 100px;
+      color: rgb(64, 224, 125) ;
+    }
+
+    .marked-price{
+      color: gray;
+      font-size: 50px;
+    }
+
+    .cart-icon{
+      margin-right: 20px;
+    }
+
+    .button-text{
+      color: white;
+      font-weight: 700px;
+    }
+
+    .perfume{
+      color: gray;
+    }
+  
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div>
+      <img class="product-mobile" src="images/image-product-desktop.jpg">
+    </div>
+    <div class="product-details">
+      <p><span class="perfume">P E R F U M E</span>
+
+        <h1 class="product-name">Gabrielle<br>Essence Eau<br> De Parfum</h1>
+      
+        <span class="product-about">A floral, solar and voluptuous <br>interpretation composed by <br>Olivier Polge, 
+          Perfumer-Creator <br>for the House of CHANEL.<br>
+
+        </span>
+        <span class="price">
+          $149.99
+        </span>
+        <span class="marked-price">
+          <s>$169.99</s>
+        </span>
+          
+        
+        
+        </p>
+      
+        <button class="add-to-cart"><img class="cart-icon" src="images/icon-cart.svg"><span class="button-text">Add to Cart</span ></button>
+  
+    </div>
+  </div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Snehali Teltumbde</a>.
+  </div>
+</body>
+</html>
